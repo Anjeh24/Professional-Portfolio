@@ -21,18 +21,23 @@ main {
     background: lemonchiffon;
     font-weight: bold;
     flex-direction: column;
-    
+    text-emphasis-position: ;
+    font-family: sans-serif;
+    align-content: center;
 }
 
 .card img {
     width: 50%;
     min-width: 200px;
+    border-radius: 25px;
+    
     
 }
 
 .main-header img {
     width: 50%;
     max-width: 100px;
+    border-radius: 50%;
     
     
 }
@@ -40,6 +45,7 @@ main {
 nav {
     display: flex;
     background: paleturquoise;
+    justify-content: center;
 }
 
 nav a {
@@ -53,6 +59,7 @@ aside {
     background-color: mediumaquamarine;
     padding: 80px;
     text-align: center;
+    font-family: cursive;
 }
 
 p {
@@ -66,4 +73,6 @@ footer {
     background-color: skyblue;
     font-weight: bold;
 }
+
+
 
